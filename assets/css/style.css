@@ -1,0 +1,245 @@
+body{
+            background-color: #dbdee4;
+        }
+        .product{
+            height: 550px;
+            width: 400px;
+            margin: 50px auto;
+            border: 2px solid rgb(242, 220, 220);
+            border-radius: 50px;
+            background-color: #ffffff;
+            filter: drop-shadow(1px 2px 10px black);
+        }
+        .product2{
+            height: 550px;
+            width: 400px;
+            margin: 50px auto;
+            border: 2px solid rgb(242, 220, 220);
+            border-radius: 50px;
+            background-color: #ffffff;
+            filter: drop-shadow(1px 2px 10px black);
+            
+        }
+        .product3{
+            height: 550px;
+            width: 400px;
+            margin: 50px auto;
+            border: 2px solid rgb(242, 220, 220);
+            border-radius: 50px;
+            background-color: #ffffff;
+            filter: drop-shadow(1px 2px 10px black);
+            
+        }
+        .contentstyle{transition: all ease 1s;
+          display: flex;
+          
+        }
+           @media only screen and (max-width:1270px){
+            .contentstyle{
+                display:block;
+            } ;
+           }
+        
+         .product:hover{
+            filter: drop-shadow(1px 2px 10px rgb(37, 175, 255));
+        }
+         .product2:hover{
+            filter: drop-shadow(1px 2px 10px rgb(37, 175, 255));
+        }
+         .product3:hover{
+            filter: drop-shadow(1px 2px 10px rgb(37, 175, 255));
+        }
+        .slide1{
+            width: 300px;
+            height: 300px;
+            border-radius: 50px;
+            margin: 40px 55px 15px ;
+              transition: all ease 2s;
+              float: left;
+        }
+        .slide1:hover{
+            width: 350px;
+            height: 350px;
+            margin: 25px 25px;
+        }
+        div h2{
+            text-align: center;
+            font-size: 20px;
+            margin: 0.5px;
+        }
+        button{
+         height: 50px;
+         width: 80px;
+         border-radius: 10px;
+         background-color: #4d7ee9;
+         float: right;
+         margin: 35px 70px;
+         font-size: 20px;
+         color: aliceblue;
+        }
+        .iPhone{
+          
+         height: 50px;
+         width: 100px;
+         border-radius: 10px;
+         background-color: #4d7ee9;
+          margin: 35px 70px;
+          border: 1px solid black;
+          color: aliceblue;
+        }
+         .text{
+            opacity: 0;
+            transition: all ease 2s;
+            width: 150px;
+            height: 150px;
+             margin: -75px -40px;
+             float: right;
+         }
+        .text:hover{
+         opacity: 1;
+         transform: translate(150px,50px);
+         border: 2px solid rgb(255, 255, 255);
+         background-color: rgb(255, 255, 255);
+          width: 255px;
+            height: 110px;
+        border-radius: 20px;
+        margin: -220px -30px;
+        color:#4d7ee9;
+        }
+        .iPhone h2{
+            font-size: 20px;
+           margin: 13px 8px;
+        }
+        .imges{
+            width: 20px;
+            height: 100px;
+            border: 2px solid #ffffff;
+           background-color: #ffffff;
+            position: relative;
+            margin: -300px 0px;
+          float: right;
+        }
+        .img1{
+            width: 25px;
+            height: 25px;
+            background-color: #56efe2;
+        float: right;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 100px;
+         margin: 1px;
+    
+        }
+        .im1{
+      
+        border-radius: 100px;
+         margin: 1px;
+         opacity: 0;
+         transition: all ease 2s;
+        }
+        .im1:hover{
+            opacity: 1;
+           margin: -100px -580px;
+            width: 250px;
+            height: 100px;
+            border-radius: 50px;
+            transform: translate(150px,50px);
+        }
+        .img2{
+            width: 25px;
+            height: 25px;
+            background-color: #56efe2;
+        float: right;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 100px;
+         margin: 1px;
+    
+        }
+        .im2{
+      
+        border-radius: 100px;
+         margin: 1px;
+         opacity: 0;
+         transition: all ease 2s;
+        }
+        .im2:hover{
+            opacity: 1;
+           margin: -120px -580px;
+            width: 250px;
+            height: 100px;
+            border-radius: 50px;
+            transform: translate(150px,50px);
+        }
+        .img3{
+              width: 25px;
+            height: 25px;
+            background-color: #56efe2;
+        float: right;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 100px;
+         margin: 1px;
+    
+        }
+        .im3{
+      
+        border-radius: 100px;
+         margin: 1px;
+         opacity: 0;
+         transition: all ease 2s;
+        }
+        .im3:hover{
+              opacity: 1;
+            margin: -150px -580px;
+            width: 250px;
+            height: 100px;
+            border-radius: 50px;
+            transform: translate(150px,50px);
+        }
+        .img4{
+              width: 25px;
+            height: 25px;
+            background-color: #56efe2;
+        float: right;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 100px;
+         margin: 1px;
+    
+        }
+        .im4{
+      
+        border-radius: 100px;
+         margin: 1px;
+         opacity: 0;
+         transition: all ease 2s;
+        }
+        .im4:hover{
+            opacity: 1;
+            margin: -180px -580px;
+            width: 250px;
+            height: 100px;
+            border-radius: 50px;
+            transform: translate(150px,50px);
+        }
+        .im1 img{
+            border-radius: 20px;
+            width: 500px;
+            height: 500px;
+            border: 50px solid #ffffff;
+        }
+        .im2 img{
+            border-radius: 20px;
+            width: 500px;
+            height: 500px;
+            border: 50px solid #ffffff;
+        }
+        .im3 img{
+            border-radius: 20px;
+            width: 500px;
+            height: 500px;
+            border: 50px solid #ffffff;
+        }
+        .im4 img{
+            border-radius: 20px;
+            width: 500px;
+            height: 500px;
+            border: 50px solid #ffffff;
+        }
