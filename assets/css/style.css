@@ -34,9 +34,9 @@ body{
           display: flex;
           
         }
-           @media only screen and (max-width:1270px){
+           @media only screen and (max-width:1230px){
             .contentstyle{
-                display:block;
+                display:inline;
             } ;
            }
         
